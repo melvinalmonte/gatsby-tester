@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  pathPrefix: `/api/v1`,
+  pathPrefix: `/v1/portal`,
   plugins: [
     'gatsby-plugin-typescript',
     {
