@@ -1,5 +1,5 @@
 import * as React from 'react'
-import CustomNavbar from './CustomNavBar'
+import CustomNavbar from '../nav-bar/CustomNavBar'
 
 const Layout: React.FunctionComponent = ({ children }) => {
     return <>
