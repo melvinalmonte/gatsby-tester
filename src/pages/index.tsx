@@ -1,11 +1,17 @@
-import React from "react"
-import {Link} from 'gatsby'
-import Layout from "../components/Layout"
-import CustomBanner from "../components/CustomBanner"
+import * as React from "react"
+import Layout from "../components/layout/Layout"
+import Banner from "../components/banner/Banner"
 require('../../node_modules/bootstrap/dist/css/bootstrap.css')
 
-export default  () => 
-    <div>
+class Index extends React.Component {
+  render() {
+    return (
+      <div>
         <Layout/>
-        <CustomBanner/>
-    </div>
+        <Banner/>
+      </div>
+    )
+  }
+}
+
+export default Index

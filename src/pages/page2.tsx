@@ -1,13 +1,9 @@
-import React from "react"
-import {Link} from 'gatsby'
-import TestGrid from "../components/TestGrid"
-import CustomNavbar from "../components/CustomNavBar"
-import Layout from "../components/Layout"
+import * as React from "react"
+import Layout from "../components/layout/Layout"
+import Container from "../components/grid/Container"
 
 export default  () => 
     <div>
         <Layout/>
-        <div>
-            <TestGrid/>
-        </div>
+        <Container/>
     </div>
