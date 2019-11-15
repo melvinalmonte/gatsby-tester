@@ -8,7 +8,7 @@
     "build": "gatsby build --prefix-paths",
     "clean": "rimraf public",
     "develop": "gatsby develop",
-    "deploy": "gatsby-plugin-s3 deploy -y",
+    "deploy": "gatsby build --prefix-paths && gatsby-plugin-s3 deploy -y",
     "start": "npm run develop",
     "format": "prettier --write \"{,!(node_modules|public|coverage|.cache)/**/}*.{js,jsx,ts,tsx,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
